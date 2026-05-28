@@ -44,6 +44,11 @@ The workbook contains the following sheets:
 | Loyalty Card | Whether the customer has a loyalty card (Yes/No) |
 
 ---
+## 📊 Project image
+
+<img width="804" height="394" alt="image" src="https://github.com/user-attachments/assets/1646e8ae-d91c-404d-9710-ea8f44883c6e" />
+
+
 
 ## 🔍 Key Insights
 
