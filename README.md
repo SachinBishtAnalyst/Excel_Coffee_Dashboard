@@ -123,7 +123,6 @@ The dashboard includes four interactive slicers. Here's what the data reveals wh
 2. Open `Coffee_Dashboard_Project.xlsx` in Microsoft Excel (2016 or later recommended)
 3. Navigate to the **Dashboard** sheet
 4. Use the slicers to filter by:
-   - Coffee Type (Arabica, Excelsa, Liberica, Robusta)
    - Roast Type (Light, Medium, Dark)
    - Package Size (0.2 kg, 0.5 kg, 1 kg, 2.5 kg)
    - Loyalty Card status (Yes / No)
