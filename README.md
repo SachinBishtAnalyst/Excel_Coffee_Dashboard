@@ -1,6 +1,6 @@
 # ☕ Coffee Sales Dashboard
 
-An interactive Excel dashboard analyzing coffee sales data across the United States, Ireland, and the United Kingdom — built with dynamic slicers to explore sales by coffee type, roast, package size, and loyalty card status.
+An interactive Excel dashboard analyzing coffee sales data across the United States, Ireland, and the United Kingdom — built with dynamic slicers to explore sales by coffee roast type, package size, and loyalty card status.
 
 ---
 
