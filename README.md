@@ -49,20 +49,6 @@ The workbook contains the following sheets:
 
 The dashboard includes four interactive slicers. Here's what the data reveals when you filter by each dimension:
 
-### ☕ Coffee Type Slicer
-| Coffee Type | Total Sales |
-|---|---|
-| Excelsa | $12,306 |
-| Liberica | $12,054 |
-| Arabica | $11,769 |
-| Robusta | $9,005 |
-
-- **Excelsa** leads overall in revenue, closely followed by Liberica and Arabica — all three are within ~$540 of each other, showing a very competitive product mix.
-- **Robusta** lags behind by ~$3,000, suggesting it either commands a lower price point or has lower demand.
-- Country-level filtering reveals preferences vary: the **US** favors Arabica, **Ireland** favors Liberica, and the **UK** favors Excelsa.
-
----
-
 ### 🔥 Roast Type Slicer
 | Roast Type | Total Sales |
 |---|---|
