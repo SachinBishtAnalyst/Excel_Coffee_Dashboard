@@ -47,7 +47,6 @@ The workbook has five sheets:
 1. Download the file and open it in Microsoft Excel (2016 or later)
 2. Go to the **Dashboard** sheet
 3. Use the slicers on the dashboard to filter by:
-   - ☕ Coffee Type (Arabica, Excelsa, Liberica, Robusta)
    - 🔥 Roast Type (Light, Medium, Dark)
    - 📦 Package Size (0.2 kg, 0.5 kg, 1 kg, 2.5 kg)
    - 🎴 Loyalty Card (Yes / No)
