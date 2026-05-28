@@ -1,6 +1,6 @@
 # ☕ Coffee Sales Dashboard
 
-An interactive Excel dashboard analyzing coffee sales data across the United States, Ireland, and the United Kingdom — covering order trends, product performance, and customer insights.
+An interactive Excel dashboard analyzing coffee sales data across the United States, Ireland, and the United Kingdom — built with dynamic slicers to explore sales by coffee type, roast, package size, and loyalty card status.
 
 ---
 
@@ -44,18 +44,68 @@ The workbook contains the following sheets:
 | Loyalty Card | Whether the customer has a loyalty card (Yes/No) |
 
 ---
+
+## 🔍 Dashboard Slicer Insights
+
+The dashboard includes four interactive slicers. Here's what the data reveals when you filter by each dimension:
+
+### ☕ Coffee Type Slicer
+| Coffee Type | Total Sales |
+|---|---|
+| Excelsa | $12,306 |
+| Liberica | $12,054 |
+| Arabica | $11,769 |
+| Robusta | $9,005 |
+
+- **Excelsa** leads overall in revenue, closely followed by Liberica and Arabica — all three are within ~$540 of each other, showing a very competitive product mix.
+- **Robusta** lags behind by ~$3,000, suggesting it either commands a lower price point or has lower demand.
+- Country-level filtering reveals preferences vary: the **US** favors Arabica, **Ireland** favors Liberica, and the **UK** favors Excelsa.
+
+---
+
+### 🔥 Roast Type Slicer
+| Roast Type | Total Sales |
+|---|---|
+| Light | $17,354 |
+| Medium | $14,600 |
+| Dark | $13,179 |
+
+- **Light roast** is the clear winner, generating ~19% more revenue than Medium and ~32% more than Dark.
+- This pattern holds across loyalty card holders and non-holders alike, suggesting light roast is a universal preference rather than a niche segment.
+- When combined with the size slicer, Light roast in the **2.5kg** package alone drives ~$8,986 — by far the highest-revenue combination.
+
+---
+
+### 📦 Package Size Slicer
+| Size | Total Sales |
+|---|---|
+| 2.5 kg | $23,786 |
+| 1.0 kg | $11,011 |
+| 0.5 kg | $7,030 |
+| 0.2 kg | $3,308 |
+
+- The **2.5kg** size dominates, accounting for over 52% of total revenue — customers are clearly buying in bulk.
+- Revenue drops steeply as package size decreases, with the 0.2kg size contributing only ~7% of total sales.
+- This suggests a strong value-buying behavior, and could indicate that promotions on large-format packs would be especially effective.
+
+---
+
+
 ## 📊 Project image
 
 <img width="804" height="394" alt="image" src="https://github.com/user-attachments/assets/1646e8ae-d91c-404d-9710-ea8f44883c6e" />
 
+---
 
+### 🎴 Loyalty Card Slicer
+| Loyalty Card | Total Sales | Orders |
+|---|---|---|
+| No | $24,216 | 521 |
+| Yes | $20,918 | 479 |
 
-## 🔍 Key Insights
-
-- **United States** accounts for the majority of total revenue (~$14,035), far exceeding Ireland (~$2,510) and the United Kingdom (~$1,380)
-- **Excelsa** and **Liberica** varieties show strong seasonal peaks across mid-year months
-- Top customer **Terri Farra** leads in spend at ~$211, with a tightly clustered top-5
-- Loyalty card holders are distributed across all three markets
+- Non-loyalty card holders actually account for more total revenue (~54%) and more orders (~52%).
+- This is a notable finding: the loyalty program has not yet flipped spending behavior in favor of card holders.
+- Filtering by loyalty card + roast type shows that **non-holders** dominate Light roast sales ($9,944 vs $7,411), which is the highest-revenue roast — meaning the most valuable segment is not enrolled in the loyalty program.
 
 ---
 
@@ -63,7 +113,7 @@ The workbook contains the following sheets:
 
 - **Microsoft Excel** — Pivot Tables, Pivot Charts, Slicers, Data Validation
 - **Data Cleaning** — Lookup formulas (XLOOKUP / INDEX-MATCH) to enrich raw orders with product and customer details
-- **Dashboard Design** — Interactive filters by roast type, package size, and loyalty card status
+- **Dashboard Design** — Interactive filters for Coffee Type, Roast Type, Package Size, and Loyalty Card status
 
 ---
 
@@ -73,10 +123,10 @@ The workbook contains the following sheets:
 2. Open `Coffee_Dashboard_Project.xlsx` in Microsoft Excel (2016 or later recommended)
 3. Navigate to the **Dashboard** sheet
 4. Use the slicers to filter by:
-   - Coffee Type
-   - Roast Type
-   - Package Size
-   - Loyalty Card status
+   - Coffee Type (Arabica, Excelsa, Liberica, Robusta)
+   - Roast Type (Light, Medium, Dark)
+   - Package Size (0.2 kg, 0.5 kg, 1 kg, 2.5 kg)
+   - Loyalty Card status (Yes / No)
 5. Charts and KPIs will update dynamically
 
 ---
